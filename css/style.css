@@ -220,7 +220,7 @@ BLOG
 SIGN IN
 ================================================ */
 #signin {
-  background-image: linear-gradient(var(--pink), var(--purple));
+  background-image: linear-gradient(var(--pink), var(--grey));
   padding: 6rem 1rem 2rem;
   -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
@@ -308,16 +308,7 @@ DESKTOP SIZE
   .hero-date {
     font-size: 3rem;
   }
-  /* travel */
-  .travel-table td {
-    display: table-cell;
-  }
-  .travel-date {
-    padding: 1.125rem 0 1rem 1rem;
-  }
-  .travel-content {
-    padding: 1rem 1rem 1rem 0;
-  }
+  
   /* blog */
   #blog h2 {
     margin-bottom: 4rem;
