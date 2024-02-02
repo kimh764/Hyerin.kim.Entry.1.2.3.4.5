@@ -85,10 +85,10 @@ HERO
   background-image: url("../images/hero.jng.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 50%;
   background-blend-mode: screen;
-  animation: bg-color 24s infinite;
-  height: 100vh;
+  animation: bg-color 14s infinite;
+  height: 80vh;
   display: flex;
   align-items: center;
 }
@@ -161,6 +161,7 @@ e
   padding: 7rem 0;
   -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
   clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+
 }
 #e h2 {
   color: var(--grey);
@@ -182,6 +183,11 @@ e
 }
 .e-content {
   padding-bottom: 1rem;
+}
+
+#e img {
+  width: 80%; 
+  height: auto; 
 }
 
 /*
