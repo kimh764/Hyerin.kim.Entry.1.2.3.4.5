@@ -150,8 +150,10 @@ y
   margin-bottom: 2rem;
   color: var(--white);
   font-family: 'Cutive Mono', monospace;
-  font-size: 18px;
+  font-size: 20px;
+  text-align: center;
 }
+
 
 /*
 e
