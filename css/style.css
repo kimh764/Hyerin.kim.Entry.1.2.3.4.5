@@ -250,8 +250,7 @@ SIGN IN
   margin-bottom: 1.5rem;
 }
 .signin-btn {
-  background: rgb(148, 148, 161);
-  color: var(--white);
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);  color: var(--white);
   display: block;
   width: 100%;
   padding: 1rem;
