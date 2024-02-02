@@ -21,7 +21,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  color: black;
+  color: rgba(0, 0, 0, 0.5);
   font-family: 'Cutive Mono', monospace;
   background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
 }
@@ -88,7 +88,7 @@ HERO
   background-size: 50%;
   background-blend-mode: screen;
   animation: bg-color 14s infinite;
-  height: 80vh;
+  height: 90vh;
   display: flex;
   align-items: center;
 }
@@ -125,7 +125,7 @@ HERO
   font-size: 4.5rem;
   font-weight: 900;
   margin-bottom: 1.5rem;
-  color: rgb(4, 6, 6);
+  color: rgba(42, 40, 40, 0.5);
   font-family: 'Cutive Mono', monospace;
 }
 .hero-p {
@@ -134,7 +134,7 @@ HERO
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
   font-family: 'Cutive Mono', monospace;
-  color: black;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /*
