@@ -142,7 +142,7 @@ HERO
 y
 ================================================ */
 #y {
-  padding: 4rem 1rem;
+  padding: 3rem 1rem;
 }
 #y h2 {
   color: var(--white);
@@ -161,7 +161,7 @@ e
 ================================================ */
 #e {
   background-image: linear-gradient(var(--pink), var(--green));
-  padding: 7rem 0;
+  padding: 4rem 0;
   -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
   clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
 
@@ -187,17 +187,12 @@ e
   display: block;
   line-height: 1.5;
 }
-.e-date {
-  font-size: 0.875rem;
-  padding-top: 1rem;
-}
-.e-content {
-  padding-bottom: 1rem;
-}
 
 #e img {
-  width: 80%; 
-  height: auto; 
+  width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
 }
 
 /*
