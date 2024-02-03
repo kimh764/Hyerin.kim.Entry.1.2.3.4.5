@@ -225,33 +225,23 @@ BLOG
 }
 
 /*
-SIGN IN
+IN
 ================================================ */
-#signin {
+#in {
   background-image: linear-gradient(var(--pink), var(--grey));
   padding: 6rem 1rem 2rem;
   -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
 }
-#signin h2 {
+#in h2 {
   color: var(--grey);
 }
-.signin-form {
+.in-form {
   max-width: 480px;
   margin: 0 auto 5rem;
 }
-.signin-form label {
-  color: var(--grey);
-  display: block;
-  margin-bottom: 0.5rem;
-}
-.signin-field {
-  background: rgba(255,255,255,.6);
-  padding: 1rem;
-  width: 100%;
-  margin-bottom: 1.5rem;
-}
-.signin-btn {
+
+.in-btn {
   background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);  color: var(--white);
   display: block;
   width: 100%;
