@@ -39,6 +39,7 @@ p {
 img {
   max-width: 100%;
 }
+
 h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
@@ -168,10 +169,17 @@ e
 #e h2 {
   color: var(--grey);
 }
+
+#e h3{
+  font-size: 17px;
+  text-align: center;
+}
+
 .e-table {
   color: var(--grey);
   width: 100%;
 }
+
 .e-table tr {
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
