@@ -1,31 +1,31 @@
 /* COLOR 
 ================================================*/
 :root {
-  --light-blue: #4db1ec;
-  --blue: #1665cc;
-  --purple: #b473bf;
-  --pink: #ffb2c1;
-  --orange: #ff9f67;
-  --yellow: #ffd673;
-  --light-green: #a2e29b;
-  --green: #00a2af;
+  --light-blue: #DDD8D5;
+  --blue: #E3DEDB;
+  --purple: #E5E5DA;
+  --pink: #DDDAD2;
+  --orange: #A2A5A2;
+  --yellow: #9C9DA2;
+  --light-green: #726F6A;
+  --green: #6A6762;
   --grey: #333;
-  --white: #fff;
+
 }
 
 /*
 GENERAL STYLING
 ================================================ */
 html {
-  font-size: 100%;
+  font-size: 80%;
   scroll-behavior: smooth;
+  
 }
 body {
-  color: rgba(0, 0, 0, 0.5);
-  font-family: 'Cutive Mono', monospace;
-  background: #EEEEEE;
- background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
- background-blend-mode: lighten;
+  color: gray;
+  font-family: "Quicksand", sans-serif;
+  background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+  background-blend-mode: lighten;
 }
 
 
@@ -63,7 +63,7 @@ h2 {
 HEADER
 ================================================ */
 header {
-  background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+  background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
   padding: 1rem 0;
 
   position: fixed;
@@ -75,8 +75,8 @@ header .wrapper {
   justify-content: space-between;
 }
 header a {
-  color: var(--white);
-  font-size: 1rem;
+  color: gray;
+  font-size: 16px;
 }
 
 
@@ -147,12 +147,12 @@ y
   padding: 3rem 1rem;
 }
 #y h2 {
-  color: var(--white);
+  color: gray;
 }
 #y p {
   margin-bottom: 2rem;
-  color: var(--white);
-  font-family: 'Cutive Mono', monospace;
+  color: gray;
+  font-family: "Quicksand", sans-serif;
   font-size: 20px;
   text-align: center;
 }
@@ -162,7 +162,7 @@ y
 e
 ================================================ */
 #e {
-  background-image: linear-gradient(var(--pink), var(--green));
+  background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
   padding: 4rem 0;
   -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
   clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
@@ -211,18 +211,18 @@ BLOG
 }
 .blog-text {
   margin-left: 1rem;
-  color: gainsboro;
+  color: grey;
   font-family: 'Cutive Mono', monospace;
 }
 
 #blog h2 {
-  color: var(--white);
+  color: gray;
 }
 #blog h3 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  color: white;
-  font-family: 'Cutive Mono', monospace;
+  color: gray;
+  font-family: "Quicksand", sans-serif;
 }
 #blog img {
   border-radius: 50%;
@@ -233,13 +233,14 @@ BLOG
 IN
 ================================================ */
 #in {
-  background-image: linear-gradient(var(--pink), var(--grey));
+  background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);;
+
   padding: 6rem 1rem 2rem;
   -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
 }
 #in h2 {
-  color: var(--grey);
+  color: gray;
 }
 .in-form {
   max-width: 480px;
@@ -247,7 +248,7 @@ IN
 }
 
 .in-btn {
-  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);  color: var(--white);
+  background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
   display: block;
   width: 50%;
   padding: 1rem;
